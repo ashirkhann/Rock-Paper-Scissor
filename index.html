@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="icon" href="scissor.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="overlay">
+            <header class="flex">
+                <h1 class="main-heading">ROCK PAPER SCISSOR</h1>
+            </header>
+
+
+            <main class="flex">
+                <div class="animated-imgs flex">
+                    <div class="one">
+                        <img class="" id="one" src="./images/rock.png" alt="">
+                    </div>
+                    <div class="two">
+                        <img class="" id="two" src="./images/rock.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="msg-container flex">
+                    <h1 id="msg" class="msg-animation"></h1>
+                    <p id="msg-remarks"></p>
+                </div>
+
+                <div class="choices flex">
+                    <div id="rock" class="choice flex">
+                        <img src="./images/rock.png" alt="">
+                    </div>
+                    <div id="paper" class="choice flex">
+                        <img src="./images/paper.png" alt="">
+                    </div>
+                    <div id="scissor" class="choice flex">
+                        <img src="./images/scissor.jpeg" alt="">
+                    </div>
+                </div>
+            </main>
+
+
+            <footer class="flex">
+                <div class="score">
+                    <h4 id="user-score">0</h4>
+                    <h4>Your Score</h4>
+                </div>
+                
+                <div class="reset flex">Reset</div>
+
+                <div class="score">
+                    <h4 id="comp-score">0</h4>
+                    <h4>Comp Score</h4>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
